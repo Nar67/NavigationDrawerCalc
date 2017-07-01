@@ -9,7 +9,7 @@
             android:checkable="true" />
         <item
             android:id="@+id/activity2"
-            android:title="Activity2"
+            android:title="Calculator"
             android:checkable="true" />
         <item
             android:id="@+id/activity3"

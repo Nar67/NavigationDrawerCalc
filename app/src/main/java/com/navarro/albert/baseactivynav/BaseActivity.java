@@ -21,6 +21,7 @@ import android.widget.FrameLayout;
 import com.navarro.albert.baseactivynav.activities.Activity1;
 import com.navarro.albert.baseactivynav.activities.Activity2;
 import com.navarro.albert.baseactivynav.activities.Activity3;
+import com.navarro.albert.baseactivynav.activities.Calculator;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -36,7 +37,7 @@ public abstract class BaseActivity extends AppCompatActivity implements Navigati
     {
         m = new ArrayMap<>();
         m.put(R.id.activity1, Activity1.class);
-        m.put(R.id.activity2, Activity2.class);
+        m.put(R.id.activity2, Calculator.class);
         m.put(R.id.activity3, Activity3.class);
 
     }

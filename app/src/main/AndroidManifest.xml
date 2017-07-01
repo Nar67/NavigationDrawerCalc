@@ -13,14 +13,19 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.Activity2"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activities.Activity2"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.Activity3"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".activities.Calculator"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
